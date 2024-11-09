@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Full name: Asror Xoliqulov
 
 #Contact Information: 
@@ -9,3 +10,19 @@
 ##I have basic knowledge of programming - a bit experience with terminology of programming what is variable, data types, algorithms, recurtion and so on)
 
 I'm not sure about my English level. I can say these I can read, understand and speak little in english.
+=======
+# Contact information
+## FUll name: Asror Xoliqulov
+* email: businesses2096@gmail.com
+* phone number: +998943553300
+
+## Skills:
+* HTML, CSS
+* BASIC JS
+* BASIC Python
+* Visual Studio Code
+
+## Languages
+* English - intermediate
+* Russian
+>>>>>>> d2909c9 (init: new file with new commit)
