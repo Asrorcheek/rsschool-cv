@@ -1,0 +1,51 @@
+body, h1,h2,h3,h4 {
+    margin: 0;
+    font-family: Roboto;
+}
+section{
+    margin-bottom: 1pc;
+}
+
+.main__container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 3%;
+    /* color: white */
+}
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.header{
+    background-color: #e0e0e0;
+    padding-bottom: 5%;
+    margin-bottom: 3pc;
+}
+.title{
+    font-size: 60px;
+    display: inline-block;
+    border-bottom: 5px dashed rebeccapurple;
+    padding-bottom: 1%;
+}
+.list{
+    font-size: 40px;
+}
+.redhr{
+    border: 1pc solid rebeccapurple;
+    max-width: inherit;
+}
+
