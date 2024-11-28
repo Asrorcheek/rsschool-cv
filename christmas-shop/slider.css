@@ -1,0 +1,30 @@
+.slider {
+    width: 1440px;
+    overflow: hidden; /* Скрываем прокрутку */
+    position: relative; /* Для позиционирования кнопок */
+}
+
+.slider-inner {
+    display: flex; /* Делаем слайды блочными элементами в ряд */
+    transition: transform 0.5s ease-in-out; /* Анимация переключения */
+}
+
+.slide {
+    width: 300px; /* Ширина каждого слайда */
+    border: 1px solid cyan;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
