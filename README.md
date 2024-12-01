@@ -1,2 +1,1 @@
-# rsschool-cv
-https://asrorcheek.github.io/rsschool-cv/cv
+https://asrorcheek.github.io/rsschool-cv/christmas-shop
