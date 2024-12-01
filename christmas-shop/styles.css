@@ -80,13 +80,14 @@ ul li a {
     line-height: 1.5;
     letter-spacing: 3px;
     text-transform: uppercase;
+    /* color: white; */
     margin-bottom: 0.6em;
 }
 .allura{
   font-family: "Allura", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 24px;
+  font-size: 25px;
   margin-bottom: 12px;
   /* color: #ff4646; */
 }
@@ -253,37 +254,33 @@ ul li a {
 .category__work{
     color: #4361FF;
 }
-.ready__section{
+.ready{
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-image: url('./img/img-compressed/bg-snow.png'), url('./img/img-compressed/bg-forest.png');
+    align-items: center;
+    align-self: center;
+    color: white;
+    background: url('./img/img-compressed/bg-forest.png'), url('./img/img-compressed/bg-snow.png');
+    background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 96dvh;
-    overflow: hidden;
+    width: 100vw;
+    height: 95vh;
 }
 .timer__container{
     display: flex;
     padding: 8px 12px;
     border-radius: 20px;
     background-color: #ffffff3e;
+    justify-content: space-evenly;
 }
 .timer__mini__container{
     width: 80px;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 10px;
 }
-.timer__mini__container:after{
-    content: "";
-    position: absolute;
-    display: block;
-    transform: translateY(50%);
-    right: -10px; /* Chiziqni o'ng tomonga joylash */
-    top: 0;
-    height: 50%; /* Chiziq balandligi */
-    width: 2px;
-}
-.timer_numb{
-    font-size: 24px;
+.timer__numb{
+    font-size: 32px;
     font-weight: 500;
     color: white;
     line-height: 1.5;
